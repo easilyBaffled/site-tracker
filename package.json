@@ -1,11 +1,10 @@
 {
-  "name": "points",
-  "version": "0.1.1",
+  "name": "site-tracker",
+  "version": "0.1.0",
   "description": "",
   "keywords": [],
-  "main": "src/index.js",
   "dependencies": {
-    "console.tap": "^0.3.9",
+    "console.tap": "^0.3.9"
   },
   "devDependencies": {
     "@cypress/snapshot": "^2.1.3",
@@ -15,12 +14,7 @@
     "wait-on": "^3.3.0"
   },
   "scripts": {
-    "ci": "cypress run --record --key e418092a-efa3-491a-a238-c6082278e7b2; echo $!; echo \"Done!\"",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --runInBand --env=jsdom --transformIgnorePatterns \"node_modules/(?!(console.tap))/\"",
-    "test:once": "react-scripts test --env=jsdom --watchAll=false",
-    "eject": "react-scripts eject"
+    "ci": "cypress run --record --key 072401a3-9205-4245-9612-a85c3159f847; echo $!; echo \"Done!\""
   },
   "browserslist": [
     ">0.2%",
