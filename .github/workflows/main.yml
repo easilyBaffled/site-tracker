@@ -2,7 +2,7 @@ name: Cypress tests
 on: 
   schedule:
     # * is a special character in YAML so you have to quote this string*
-    - cron:  '0 8 * * *' # every morning at 8am, courtacy of https://crontab.guru/every-day-8am
+    - cron:  '0 10 * * *' # every morning at 8am, courtacy of https://crontab.guru/every-day-8am
 jobs:
   cypress-run:
     name: Cypress run
